@@ -1,0 +1,118 @@
+* {
+  font-family: 'Open Sans' !important;
+}
+
+#banner {
+	text-align: center;
+	background-color: #6CADFF;
+	height:198px;
+	width:100%;
+}
+
+#input {
+	width:680px;
+	height:50px;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	border-color: #D8D8D8;
+	padding-left:20px;
+	font-size: x-large;
+	margin-right:20;
+}
+
+#add {
+	background: url('../images/Group 3.png');
+	width:56px;
+	height:60px;
+	background-size:cover;
+	border:none;
+	position:absolute;
+	padding-left:10px;
+}
+
+footer {
+	text-align: center;
+}
+
+footer p{
+	color:#D9D9D9;
+}
+
+.element{
+	width: 70%;
+	height: 150px;
+	border-style: groove;
+	margin: 20;
+}
+
+.elementFinished{
+	width: 70%;
+	height: 150px;
+	border-style: groove;
+	margin: 20;
+	background-color: #F8F8F8;
+}
+
+.left{
+	float:left;
+	width: 60%;
+	height: 100%;
+	padding-top: 53;
+	text-align: left;
+	padding-left: 20px;
+	font-size: 24px;
+	color: #888888;
+}
+
+.element .mid {
+	width: 20%;
+	height: 100%;
+	float: left;
+	padding-top: 53;
+	font-size: 24px;
+	color: #D9D9D9;
+}
+
+.elementFinished .mid {
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+.element .right {
+	float: right;
+	width: 20%;
+	height: 100%;
+	padding-top: 40;
+}
+
+.elementFinished .right {
+	float: right;
+	width: 20%;
+	height: 100%;
+	padding-top: 53;
+	font-size: 24px;
+	color: #D9D9D9;
+}
+
+.pauseBtn {
+	height: 60px;
+	width: 56px;
+	background: url('../images/Group 5.png');
+	background-size: cover;
+	border: none;
+}
+
+.finishBtn {
+	height: 60px;
+	width: 56px;
+	background: url('../images/Group 4.png');
+	background-size: cover;
+	border: none;
+	margin-left: 10px;
+}
+
+#tick {
+	margin-right:10;color:#8EF377;font-size:24px;
+}
